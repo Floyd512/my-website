@@ -1,0 +1,33 @@
+yangshun:
+  name: Yangshun Tay
+  # 姓名
+  title: Front End Engineer @ Facebook
+  # 职位
+  url: https://github.com/yangshun
+  # 个人网站
+  image_url: https://github.com/yangshun.png
+  # 头像
+  page:
+    # 自定义作者页面在 /blog/authors/<permalink> 的 URL
+    permalink: '/all-yangshun-tay-articles'
+  socials:
+    x: yangshunz
+    github: yangshun
+
+slorber:
+  # 姓名
+  name: Sébastien Lorber
+  # 职位
+  title: Docusaurus maintainer
+  # 个人网站
+  url: https://sebastienlorber.com
+  # 头像
+  image_url: https://github.com/slorber.png
+  page:
+    # 自定义作者页面在 /blog/authors/<permalink> 的 URL
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com

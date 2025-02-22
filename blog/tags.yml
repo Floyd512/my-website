@@ -1,0 +1,27 @@
+facebook:
+  # 标签名称
+  label: Facebook
+  # 标签页面 URL
+  permalink: /facebook
+  # 标签描述
+
+hello:
+  # 标签名称
+  label: Hello
+  # 标签页面 URL
+  permalink: /hello
+  # 标签描述
+
+docusaurus:
+  # 标签名称
+  label: Docusaurus
+  # 标签页面 URL
+  permalink: /docusaurus
+  # 标签描述
+
+hola:
+  # 标签名称
+  label: Hola
+  # 标签页面 URL
+  permalink: /hola
+  # 标签描述
