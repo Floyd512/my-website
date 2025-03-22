@@ -1,0 +1,8 @@
+{
+    "label": "依赖管理",
+    "position": 13,
+    "link": {
+      "type": "generated-index",
+      "description": "依赖管理工具，如：Maven、sbt等"
+    }
+  }

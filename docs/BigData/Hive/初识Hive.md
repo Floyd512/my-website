@@ -1,10 +1,8 @@
 ---
-layout: post
+sidebar_position: 1
 title: 初识Hive
 date: 2020-06-13 05:41:59
-tags: [Hive]
-categories: [Bigdata,Hive]
-excerpt: 。。。
+tags: [Bigdata, Hive]
 ---
 
 ### 前言
@@ -32,7 +30,7 @@ excerpt: 。。。
 ### Hive内部架构
 ---
 
-![Hive内部架构](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/Hive/Hive内部架构.png?raw=true)
+![Hive内部架构](./img/Hive内部架构.png)
 
 - Thrift Server：提供了一种让用户可以使用多种不同的语言来操作Hive
 

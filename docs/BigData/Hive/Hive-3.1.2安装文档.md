@@ -1,10 +1,8 @@
 ---
-layout: photo
+sidebar_position: 2
 title: Hive-3.1.2安装文档
 date: 2023-07-29 16:53:09
-tags: [Hive]
-categories: [Bigdata,Hive]
-excerpt: 。。。
+tags: [Bigdata,Hive]
 ---
 
 ### 一、写在最前
@@ -36,7 +34,7 @@ wget https://mirrors.tuna.tsinghua.edu.cn/apache/hive/hive-3.1.2/apache-hive-3.1
 
 ### 三、配置
 
-#### 1. 前提条件：[MySQL安装](https://charlietao.github.io/2023/08/01/MySQL8安装文档/)
+#### 1. 前提条件：[MySQL安装](../../数据库/MySQL/MySQL8安装文档.md)
 > 虽然Hive内置数据库管理元数据，但是一般都是单独配置到MySQL中，方便管理
 
 #### 2. 拷贝JDBC驱动到Hive的lib目录下

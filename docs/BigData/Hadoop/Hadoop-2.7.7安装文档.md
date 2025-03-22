@@ -456,10 +456,10 @@ hadoop-daemon.sh start zkfc
 在浏览器中输⼊分别输⼊ bigdata001:50070 、 bigdata002:50070 检查主从NameNode是否 为正常状态。如下所⽰：
 ActiveNameNode：
 
-![bigdata001:50070](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/Hadoop/ActiveNameNode.png?raw=true)
+![bigdata001:50070](./img/ActiveNameNode.png)
 
 StandbyNameNode：
 
-![bigdata002:50070](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/Hadoop/StandbyNameNode.png?raw=true)
+![bigdata002:50070](./img/StandbyNameNode.png)
 
 ⾼可⽤测试（将bigdata001上的NameNode杀死，在Web⻚⾯上观察bigdata002的NameNode是否改变状态

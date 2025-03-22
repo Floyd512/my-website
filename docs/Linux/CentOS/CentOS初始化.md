@@ -122,7 +122,7 @@ vim /etc/hosts
 
 ### 10.服务器之间配置免密
 
-<img src="https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/Linux/SSH%E9%85%8D%E7%BD%AE.png?raw=true" />
+![SSH配置](../img/SSH配置.png)
 
 ```BASH
 #生成密钥对
@@ -157,4 +157,4 @@ tar -zxvf jdk-8u45-linux-x64.tar.gz -C /home/tomford/software/
 
 配置环境变量
 
-<img src="https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/Linux/Java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE.png?raw=true" />
+![Java环境变量设置](../img/Java环境变量设置.png)

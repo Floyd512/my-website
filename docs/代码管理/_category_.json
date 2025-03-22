@@ -1,0 +1,8 @@
+{
+    "label": "代码管理",
+    "position": 14,
+    "link": {
+      "type": "generated-index",
+      "description": "常见的代码管理工具, 如 git, svn, hg 等"
+    }
+  }

@@ -134,7 +134,7 @@ stop-hbase.sh
 >注：HBASE默认Web UI端⼝号为16010，可在配置⽂件中更改。若显⽰正常，则安装完成。
 
 HMaster页面如下：
-![](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/HBase/HBASEMaster.png?raw=true)
+![HBase Master](./img/HBASEMaster.png)
 
 Backup HMaster⻚⾯如下：
-![](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/HBase/BackupMaster.png?raw=true)
+![Back HMaster](./img/BackupMaster.png)
