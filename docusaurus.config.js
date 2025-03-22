@@ -11,19 +11,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TOM FORD',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'R&B & RMB !',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://tomford.github.io',
+  url: 'https://tomford.blog.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/tomford.github.io/',
+  baseUrl: '/blog.github.io/', 
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TOMFORD512', // Usually your GitHub org/user name.
-  projectName: 'tomford.github.io', // Usually your repo name.
+  projectName: 'blog.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

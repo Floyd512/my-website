@@ -49,7 +49,7 @@ sudo yum remove mysql mysql-server
 ---
 ## 2、安装
 
-![MySQL安装目录](https://github.com/CharlieTao/CharlieTao.github.sources/blob/master/BigData/Pictures/MySQL/MySQL安装目录.png?raw=true)
+![MySQL安装目录](./img/Mysql安装目录.png)
 
 ### （1）通过 Yum 仓库安装（推荐）
 MySQL 官方提供了 YUM 仓库，需要先下载并安装 MySQL 8 的 YUM 仓库，然后再使用 YUM 安装 MySQL 8
