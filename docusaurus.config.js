@@ -14,16 +14,16 @@ const config = {
   tagline: 'R&B & RMB !',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://tomford.blog.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog.github.io/', 
+  // 在此处设置您站点的生产环境 URL
+  url: 'https://Floyd512.github.io',
+  // 设置您的站点所使用的 /<基础URL>/ 路径名
+  // 对于 GitHub Pages 部署，通常为 '/<项目名称>/'
+  baseUrl: '/', 
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'TOMFORD512', // Usually your GitHub org/user name.
-  projectName: 'blog.github.io', // Usually your repo name.
+  organizationName: 'Floyd512', // Usually your GitHub org/user name.
+  projectName: 'Floyd512.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
