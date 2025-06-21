@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: CentOS 7 使用 Chrony 进行时间同步
+title: CentOS 时间同步
 date: 2020-06-13 05:31:01
 tags: [CentOS, Chrony, NTP]
 ---
@@ -19,7 +19,7 @@ tags: [CentOS, Chrony, NTP]
 
 CentOS 7 通常已默认安装 Chrony。您可以使用以下命令检查。如果未安装，`yum` 会自动进行安装。
 
-```bash
+```Bash
 yum -y install chrony
 ````
 
@@ -27,13 +27,13 @@ yum -y install chrony
 
 编辑配置文件，将其中的时间服务器指向更稳定、延迟更低的国内NTP服务器，如阿里云。
 
-```bash
+```Bash
 vi /etc/chrony.conf
 ```
 
 修改文件内容如下：
 
-```conf
+```Conf
 # 注释掉默认的 centos.pool.ntp.org 服务器
 # pool 2.centos.pool.ntp.org iburst
 
@@ -61,7 +61,7 @@ logdir /var/log/chrony
 
 配置完成后，启动 `chronyd` 服务并设置为开机自启。
 
-```bash
+```Bash
 # 启动 chronyd 服务
 systemctl start chronyd
 
@@ -69,20 +69,22 @@ systemctl start chronyd
 systemctl enable chronyd
 ```
 
-**注意**：`chronyd` 和 `ntpd` 服务不能同时运行。如果您的系统之前启用了 `ntpd`，请先将其关闭并禁用：`systemctl stop ntpd && systemctl disable ntpd`。
+:::tip
+`chronyd` 和 `ntpd` 服务不能同时运行。如果您的系统之前启用了 `ntpd`，请先将其关闭并禁用：`systemctl stop ntpd && systemctl disable ntpd`。
+:::
 
 ### 4. 验证时间同步状态
 
 使用 `chronyc` 命令行工具可以方便地查看同步状态。
 
-```bash
+```Bash
 # 查看整体同步状态
 chronyc tracking
 ```
 
 输出结果中的 `Leap status` 应为 `Normal`。
 
-```bash
+```Bash
 # 查看当前同步源的详细信息
 chronyc sources -v
 ```
@@ -104,19 +106,19 @@ chronyc sources -v
 时间同步的准确性依赖于正确的时区设置。
 
   * **查看当前时区和时间** (推荐方式):
-    ```bash
+    ```Bash
     timedatectl
     ```
   * **修改时区为上海/北京时间** (推荐方式):
-    ```bash
+    ```Bash
     timedatectl set-timezone Asia/Shanghai
     ```
   * **查看当前时区** (传统方式):
-    ```bash
+    ```Bash
     ll /etc/localtime
     ```
   * **修改时区** (传统方式，了解即可):
-    ```bash
+    ```Bash
     ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
     ```
 :::
