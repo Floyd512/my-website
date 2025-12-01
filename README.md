@@ -34,8 +34,11 @@ $ USE_SSH=true npm deploy
 
 不使用 SSH:
 
-```
+``` bash
 $ GIT_USER=<Your GitHub username> npm deploy
 ```
 
+```powerShell
+$env:GIT_USER="Floyd512"; npm run deploy
+```
 如果你使用 GitHub 页面进行托管，这个命令是一个方便的方式来构建网站并推送到 `gh-pages` 分支。
